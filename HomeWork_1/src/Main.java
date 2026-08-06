@@ -6,6 +6,7 @@ public class Main {
         Fibonacci fibonacci = new Fibonacci();
 
         System.out.print("Enter the number of Fibonacci numbers: ");
+
         int fibonacciLength = reader.readNumber();
         int[] fibonacciNumbers = fibonacci.getFibonacciByLength(fibonacciLength);
         System.out.println(Arrays.toString(fibonacciNumbers));
