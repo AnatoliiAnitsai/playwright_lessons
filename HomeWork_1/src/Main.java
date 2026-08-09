@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Enter the number of Fibonacci numbers: ");
 
         int fibonacciLength = reader.readNumber();
-        int[] fibonacciNumbers = fibonacci.getFibonacciByLength(fibonacciLength);
+        long[] fibonacciNumbers = fibonacci.getFibonacciByLength(fibonacciLength);
         System.out.println(Arrays.toString(fibonacciNumbers));
     }
 }
