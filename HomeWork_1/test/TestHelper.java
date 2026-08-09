@@ -1,3 +1,5 @@
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,5 +13,9 @@ public class TestHelper {
         }
 
         return result;
+    }
+
+    public static InputStream createInput(String input) {
+        return new ByteArrayInputStream(input.getBytes());
     }
 }

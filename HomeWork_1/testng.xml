@@ -5,6 +5,7 @@
     <test name="All Tests">
         <classes>
             <class name="FibonacciTest"/>
+            <class name="ReaderTest"/>
         </classes>
     </test>
 
